@@ -31,14 +31,14 @@ VCC2016 Dataset: (It's already inside the repo)
 
 ## How to Run
 
-#### Data Download
+### Data Download
 (Since data are already in Repo, this is only for when you lost them)
 
 ```bash
 $ python download.py
 ```
 
-#### Train
+### Train
 ```bash
 $ python train.py --speaker_name_list [speaker_name_list] --num_epochs [num_epochs] --train_dir [train_dir] --model_dir [model_dir] --model_name [model_name] --random_seed [random_seed] --validation_dir [validation_dir] --output_dir [output_dir] --tensorboard_log_dir [tensorboard_log_dir]
 ```
@@ -68,8 +68,8 @@ $ python train.py
 
 It conducts validiton during training every 100 epochs for first speaker and last speaker of speaker name list.
 
-#### Test
-##### For 1 X 1 voice conversion (1 direction)
+### Test
+#### For 1 X 1 voice conversion (1 direction)
 
 ```bash
 $ python convert.py --speaker_name_list [speaker_name_list] --src [src] --tar [tar] --model_dir [model_dir] --model_name [model_name] --data_dir [data_dir] --output_dir [output_dir]
@@ -89,7 +89,7 @@ $ python convert.py --speaker_name_list SF1 SF2 SF3 SM1 SM2 TF1 TF2 TM1 TM2 TM3 
 
 You must put all speakers' names into speaker_name_list in order that you set in training, since it creates one-hot vector with the list.
 
-##### For n X n voice conversion (n^2 direction)
+#### For n X n voice conversion (n^2 direction)
 
 ```bash
 $ python convert_all.py --speaker_name_list [speaker_name_list] --model_dir [model_dir] --model_name [model_name] --data_dir [data_dir] --output_dir [output_dir]
@@ -115,7 +115,7 @@ $ python convert_all.py --speaker_name_list SF1 SF2 SM1 TF1 TM1 TM3
 
 You must put all speakers' names into speaker_name_list in order that you set in training, since it creates one-hot vector with the list.
 
-##### For n X n voice conversion (n^2 direction) with only selected sentences
+#### For n X n voice conversion (n^2 direction) with only selected sentences
 
 ```bash
 $ python convert_all.py --speaker_name_list [speaker_name_list] --wav_list [wav_list] --model_dir [model_dir] --model_name [model_name] --data_dir [data_dir] --output_dir [output_dir]
@@ -141,7 +141,7 @@ $ python convert_all.py --speaker_name_list SF1 SF2 SM1 TF1 TM1 TM3
 
 You must put all speakers' names into speaker_name_list in order that you set in training, since it creates one-hot vector with the list.
 
-##### For debugging
+#### For debugging
 
 ```bash
 $ python weight.py
