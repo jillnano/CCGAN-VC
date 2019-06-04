@@ -32,7 +32,8 @@ VCC2016 Dataset: (It's already inside the repo)
 ## How to Run
 
 #### Data Download
-(Since data are already in Repo, this is for when you lose them)
+(Since data are already in Repo, this is only for when you lost them)
+
 ```bash
 $ python download.py
 ```
@@ -59,7 +60,7 @@ or
 $ python train.py --speaker_name_list SF1 SF2 SF3 SM1 SM2 --num_epochs 501
 ```
 
-or
+or simply,
 
 ```bash
 $ python train.py
@@ -106,7 +107,7 @@ or simply,
 $ python convert_all.py --speaker_name_list SF1 SF2 SF3 SM1 SM2 TF1 TF2 TM1 TM2 TM3
 ```
 
-Length of speaker_name_list must be equal to the number of speakers that you put in CCGAN-VC training.
+You must put all speakers' names into speaker_name_list in order that you set in training, since it creates one-hot vector with the list.
 
 ##### For n X n voice conversion (n^2 direction) with only selected sentences
 
@@ -125,6 +126,14 @@ or simply,
 ```bash
 $ python convert_all.py --speaker_name_list SF1 SF2 SF3 SM1 SM2 TF1 TF2 TM1 TM2 TM3
 ```
+
+or ex)
+
+```bash
+$ python convert_all.py --speaker_name_list SF1 SF2 SM1 TF1 TM1 TM3
+```
+
+You must put all speakers' names into speaker_name_list in order that you set in training, since it creates one-hot vector with the list.
 
 ##### For debugging
 
