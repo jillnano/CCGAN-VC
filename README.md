@@ -107,6 +107,12 @@ or simply,
 $ python convert_all.py --speaker_name_list SF1 SF2 SF3 SM1 SM2 TF1 TF2 TM1 TM2 TM3
 ```
 
+or ex)
+
+```bash
+$ python convert_all.py --speaker_name_list SF1 SF2 SM1 TF1 TM1 TM3
+```
+
 You must put all speakers' names into speaker_name_list in order that you set in training, since it creates one-hot vector with the list.
 
 ##### For n X n voice conversion (n^2 direction) with only selected sentences
