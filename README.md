@@ -85,7 +85,7 @@ or simply,
 $ python convert.py --speaker_name_list SF1 SF2 SF3 SM1 SM2 TF1 TF2 TM1 TM2 TM3 --src SF1 --tar TM3
 ```
 
-You must put all speakers' names into speaker_name_list in order that you set in training, since it creates one-hot vector with the list.
+You must put all speakers' names into speaker_name_list in the order that you set in training, since it creates one-hot vector with the list.
 
 #### For n X n voice conversion (n^2 direction)
 
@@ -111,7 +111,7 @@ or ex)
 $ python convert_all.py --speaker_name_list SF1 SF2 SM1 TF1 TM1 TM3
 ```
 
-You must put all speakers' names into speaker_name_list in order that you set in training, since it creates one-hot vector with the list.
+You must put all speakers' names into speaker_name_list in the order that you set in training, since it creates one-hot vector with the list.
 
 #### For n X n voice conversion (n^2 direction) with only selected sentences
 
@@ -137,7 +137,7 @@ or ex)
 $ python convert_all.py --speaker_name_list SF1 SF2 SM1 TF1 TM1 TM3
 ```
 
-You must put all speakers' names into speaker_name_list in order that you set in training, since it creates one-hot vector with the list.
+You must put all speakers' names into speaker_name_list in the order that you set in training, since it creates one-hot vectors with the list.
 
 ### Data Download
 (Since data are already in Repo, this is only for when you lost them)
@@ -152,5 +152,5 @@ $ python download.py
 $ python weight.py
 ```
 
-It prints max and min weight connected to one hot vector
+It prints max and min weight connected to one-hot vectors.
 
