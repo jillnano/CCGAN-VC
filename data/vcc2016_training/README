@@ -1,0 +1,46 @@
+
+Welcome to participate in the first Voice Conversion Challenge (VCC 2016)! 
+
+
+This directory contains the training data for the challenge. There are five source speakers and five target speakers, listed as:
+
+Source speakers: SF1, SF2, SF3, SM1, SM2
+Target speakers: TF1, TF2, TM1, TM2, TM3
+
+('S' denotes 'source', 'T' denotes 'target', while 'M' and 'F' for 'male' and 'female', respectively.)
+
+Each speaker utters the same sentence set consisting of 162 sentences. A number ID from 100001 to 100162 is used as the file name. The same file name means the same linguistic content. For example, './vcc2016_training/SF1/100001.wav' and './vcc2016_training/TF1/100001.wav' is a pair of parallel utterances, which have the same linguistic content.
+
+The waveforms in the directory are in RIFF/WAVE format. The sampling rate is 16 kHz, and stored in 16-bit format.
+
+As a participant, you are supposed to build voice conversion systems for all the 25 source-target speaker pair combinations, for example,
+SF1 -> TF1
+SF1 -> TF2
+SF1 -> TM1 
+SF1 -> TM2 
+SF1 -> TM3 
+...
+...
+...
+SM2 -> TF1 
+SM2 -> TF2
+SM2 -> TM1 
+SM2 -> TM2 
+SM2 -> TM3
+
+More details about the challenge can be found via the official website: http://vc-challenge.org/
+
+If you have any questions, feel free to contact the organisers via email: vcc2016@vc-challenge.org
+
+(Evaluation data will be release on January 8th, 2016)
+
+Thank you!
+
+Organisers (listed alphabetically):
+Linghui Chen (University of Science and Technology of China)
+Daisuke Saito (Tokyo University)
+Tomoki Toda (Nagoya University)
+Fernando Villavicencio (National Institute of Informatics)
+Zhizheng Wu (University of Edinburgh)
+Junichi Yamagishi (National Institute of Informatics)
+
