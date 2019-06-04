@@ -12,6 +12,10 @@ Conditional CycleGAN Voice Converter which conducts non-parallel many-to-many vo
 
 **Conditional CycleGAN-VC (CCGAN-VC)** utilizes speaker identity vectors for additional information and conditions generator and discriminator with them. CCGAN-VC needs **only 1 generator and 1 discriminator** for conducting **many-to-many** voice conversion.  
 
+<p align="center">
+<img src = "./picture/CCGAN-Generator.png" width="70%"> <img src = "./picture/CCGAN-Discriminator.png" width="70%">
+</p>
+
 ## Performance
 
 
