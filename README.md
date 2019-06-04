@@ -17,14 +17,14 @@ Conditional CycleGAN Voice Converter which conducts non-parallel many-to-many vo
 
 ## Reference
 
----CycleGAN-VC---  
+#### CycleGAN-VC 
 "Parallel-Data-Free Voice Conversion Using Cycle-Consistent Adversarial Networks" by Takuhiro Kaneko and Hirokazu Kameoka
 (paper: https://arxiv.org/abs/1711.11293)  
 (demo: http://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/cyclegan-vc/)  
 (V2: http://www.kecl.ntt.co.jp/people/kaneko.takuhiro/projects/cyclegan-vc2/index.html)  
 (Tensorflow implementation by Lei Mao: https://github.com/leimao/Voice_Converter_CycleGAN)   
 
----Dataset---  
+#### Dataset 
 VCC2016 Dataset: (It's already inside the repo)  
 (http://vc-challenge.org/vcc2016/summary.html)  
 
