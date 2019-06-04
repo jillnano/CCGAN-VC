@@ -140,17 +140,17 @@ $ python convert_all.py --speaker_name_list SF1 SF2 SM1 TF1 TM1 TM3
 You must put all speakers' names into speaker_name_list in the order that you set in training, since it creates one-hot vectors with the list.
 
 ### Data Download
-(Since data are already in Repo, this is only for when you lost them)
+(Since data are already in this repo, this is only for when you lost them)
 
 ```bash
 $ python download.py
 ```
 
-#### For debugging
+### For debugging
 
 ```bash
 $ python weight.py
 ```
 
-It prints max and min weight connected to one-hot vectors.
+It prints max and min of weights connected to one-hot vectors.
 
