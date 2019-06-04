@@ -31,13 +31,6 @@ VCC2016 Dataset: (It's already inside the repo)
 
 ## How to Run
 
-### Data Download
-(Since data are already in Repo, this is only for when you lost them)
-
-```bash
-$ python download.py
-```
-
 ### Train
 ```bash
 $ python train.py --speaker_name_list [speaker_name_list] --num_epochs [num_epochs] --train_dir [train_dir] --model_dir [model_dir] --model_name [model_name] --random_seed [random_seed] --validation_dir [validation_dir] --output_dir [output_dir] --tensorboard_log_dir [tensorboard_log_dir]
@@ -140,6 +133,13 @@ $ python convert_all.py --speaker_name_list SF1 SF2 SM1 TF1 TM1 TM3
 ```
 
 You must put all speakers' names into speaker_name_list in order that you set in training, since it creates one-hot vector with the list.
+
+### Data Download
+(Since data are already in Repo, this is only for when you lost them)
+
+```bash
+$ python download.py
+```
 
 #### For debugging
 
