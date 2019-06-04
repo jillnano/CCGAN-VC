@@ -8,7 +8,7 @@ Korea University
 
 Conditional CycleGAN Voice Converter which conducts non-parallel many-to-many voice conversion with single generator and discriminator
 
-**CycleGAN-VC** was successful in non-parallel voice conversion for 2 speakers. CycleGAN-VC needs **2 generators and 2 discriminators for one-to-one** voice conversion.
+**CycleGAN-VC** was successful in non-parallel voice conversion for 2 speakers. CycleGAN-VC needs **2 generators and 2 discriminators** for **one-to-one** voice conversion.
 
 **Conditional CycleGAN-VC (CCGAN-VC)** utilizes speaker identity vectors for additional information and conditions generator and discriminator with them. CCGAN-VC needs **only 1 generator and 1 discriminator** for conducting **many-to-many** voice conversion.  
 
