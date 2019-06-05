@@ -118,25 +118,25 @@ You must put all speakers' names into speaker_name_list in the order that you se
 #### For n X n voice conversion (n^2 direction) with only selected sentences
 
 ```bash
-$ python convert_all.py --speaker_name_list [speaker_name_list] --wav_list [wav_list] --model_dir [model_dir] --model_name [model_name] --data_dir [data_dir] --output_dir [output_dir]
+$ python convert_all_sample.py --speaker_name_list [speaker_name_list] --wav_list [wav_list] --model_dir [model_dir] --model_name [model_name] --data_dir [data_dir] --output_dir [output_dir]
 ```
 
 ex)
 
 ```bash
-$ python convert_all.py --speaker_name_list SF1 SF2 SF3 SM1 SM2 TF1 TF2 TM1 TM2 TM3 --wav_list 200001.wav 200002.wav 200003.wav model_dir ./model --model_name CCGAN.ckpt --data_dir ./data/evaluation_all/ --output_dir ./converted_voices/
+$ python convert_all_sample.py --speaker_name_list SF1 SF2 SF3 SM1 SM2 TF1 TF2 TM1 TM2 TM3 --wav_list 200001.wav 200002.wav 200003.wav model_dir ./model --model_name CCGAN.ckpt --data_dir ./data/evaluation_all/ --output_dir ./converted_voices/
 ```
 
 or simply,
 
 ```bash
-$ python convert_all.py --speaker_name_list SF1 SF2 SF3 SM1 SM2 TF1 TF2 TM1 TM2 TM3
+$ python convert_all_sample.py --speaker_name_list SF1 SF2 SF3 SM1 SM2 TF1 TF2 TM1 TM2 TM3
 ```
 
 or ex)
 
 ```bash
-$ python convert_all.py --speaker_name_list SF1 SF2 SM1 TF1 TM1 TM3
+$ python convert_all_sample.py --speaker_name_list SF1 SF2 SM1 TF1 TM1 TM3
 ```
 
 You must put all speakers' names into speaker_name_list in the order that you set in training, since it creates one-hot vectors with the list.
