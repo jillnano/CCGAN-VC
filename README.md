@@ -20,7 +20,16 @@ This code was modified from Lei Mao's CycleGAN-VC implementation(https://github.
 
 ## Performance
 
-To be uploaded Soon
+#### Voice Quality
+Sample voices are uploaded in 'sample' directory.
+
+#### Model Size
+|                       | 1 CycleGAN-VC |  50 CycleGAN-VCs  | 1 CCGAN-VC   |
+| :---                  |     :---:     |     :---:         |     :---:    |
+| Number of speakers    |        2      |       10          |       10     |
+| Converting Directions |        2      |       100         |       100    |
+| Number of G and D     |        2      |       100         |     **1**    |
+| Model Size            |     1.34GB    |       67.0GB      |   **0.67GB** |
 
 ## Reference
 
