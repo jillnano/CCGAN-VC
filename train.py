@@ -33,7 +33,7 @@ def train(speaker_name_list, num_epochs, train_dir, validation_dir, model_dir, m
     
     lambda_cycle = 10
     lambda_identity = 5
-    lambda_A2B = 5 # 1 is bad, 5~8 is good
+    lambda_A2B = 3 # 1 is bad, 3~8 is good
     
     dic_sps_norm = {}
     dic_sps_mean = {}
