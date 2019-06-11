@@ -23,7 +23,7 @@ This code was modified from Lei Mao's CycleGAN-VC implementation(https://github.
 #### Voice Quality
 Sample voices are uploaded in 'sample' directory.
 
-#### Model Size
+#### Training Time and Model Size
 |                       | 1 CycleGAN-VC |  50 CycleGAN-VCs  | 1 CCGAN-VC     |
 | :---                  |     :---:     |     :---:         |     :---:      |
 | Number of speakers    |        2      |       10          |       10       |
@@ -31,6 +31,9 @@ Sample voices are uploaded in 'sample' directory.
 | Number of G and D     |        2      |       100         |     **1**      |
 | Training Time         |     0.7 days  |       34.6 days   |   **3.9 days** |
 | Model Size            |     1.35GB    |       67.50GB     |   **0.69GB**   |
+
+GPU: 2080ti  
+CycleGAN-VC: 2500 epochs, CCGAN-VC 250 epochs
 
 ## Reference
 
