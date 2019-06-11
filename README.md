@@ -24,12 +24,13 @@ This code was modified from Lei Mao's CycleGAN-VC implementation(https://github.
 Sample voices are uploaded in 'sample' directory.
 
 #### Model Size
-|                       | 1 CycleGAN-VC |  50 CycleGAN-VCs  | 1 CCGAN-VC   |
-| :---                  |     :---:     |     :---:         |     :---:    |
-| Number of speakers    |        2      |       10          |       10     |
-| Converting Directions |        2      |       100         |       100    |
-| Number of G and D     |        2      |       100         |     **1**    |
-| Model Size            |     1.34GB    |       67.0GB      |   **0.67GB** |
+|                       | 1 CycleGAN-VC |  50 CycleGAN-VCs  | 1 CCGAN-VC     |
+| :---                  |     :---:     |     :---:         |     :---:      |
+| Number of speakers    |        2      |       10          |       10       |
+| Converting Directions |        2      |       100         |       100      |
+| Number of G and D     |        2      |       100         |     **1**      |
+| Training Time         |     0.7 days  |       34.6 days   |   **3.9 days** |
+| Model Size            |     1.35GB    |       67.50GB     |   **0.69GB**   |
 
 ## Reference
 
